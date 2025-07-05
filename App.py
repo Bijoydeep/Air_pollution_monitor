@@ -1,8 +1,5 @@
 ﻿import streamlit as st
 import pandas as pd
-from utils.data_loader import load_openaq_data
-from utils.ai_explainer import explain_trend
-from ml.model import predict_pollution
 st.set_page_config(page_title="Air Pollution Monitor", layout="wide")
 st.title("🛰️ Air Pollution Monitor")
 st.markdown("Using Satellite, Ground, Reanalysis Data + AI/ML")
